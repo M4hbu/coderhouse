@@ -53,6 +53,14 @@ hr{
     width: 65%;
 }
 
+.nav-button{
+    transition: transform .2s;
+}
+
+.nav-button:hover{
+    transform: scale(1.2);
+}
+
 /* CENTER IMAGE */
 
 .center{
