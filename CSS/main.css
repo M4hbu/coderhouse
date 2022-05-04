@@ -1,0 +1,400 @@
+/* MOBILE - 320 PX */
+
+/* LINKS */
+
+a{
+    text-decoration: none;
+}
+
+/* BODY */
+
+body{
+    background-image: url(../Img/bg.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #FFFDF2;
+}
+
+/* HEADER */
+
+header h1{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: black;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 4.1em;
+    color: #2b2b2b;
+}
+
+/* NAV */
+
+nav ul li{
+    display: flex;
+    flex-direction: column;
+    font-family: 'roboto', serif;
+    align-items: center;
+    align-content: center;
+    color: rgb(43, 43, 43);
+    font-size: 1.3em;
+}
+
+ul{
+    text-align: center;
+    padding: 0%;
+}
+
+li{
+    list-style: none;
+}
+
+hr{
+    width: 65%;
+}
+
+/* CENTER IMAGE */
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* 2DS */
+
+.ds{
+visibility: visible;
+height: 0%;
+width: 0%;
+}
+
+
+/* TEXTO */
+
+
+main div{
+    align-items: center;
+}
+
+.texto_index{
+    font-family: 'roboto', serif;
+    text-align: justify;
+    width: 43%;
+    font-size: 1.3em;
+    letter-spacing: 1px;
+    color: #2b2b2b;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* MÁRGENES INFERIORES - FOOTERS */
+
+.margin-bot{
+    margin-bottom: 30px;
+}
+
+/* NEGRITA -TEXTO- */
+
+.bold{
+    font-family: 'Playfair Display', serif;
+}
+
+/* FOOTER */
+
+footer{
+    font-family: 'roboto', serif;
+}
+
+footer li{
+    display: inline-block;
+    margin: 2px 12px;
+}
+
+#fb:hover{
+    transform: scale(1.3);   
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+
+#tw:hover{
+    transform: scale(1.3);   
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+
+#steam:hover{
+    transform: scale(1.3);   
+    transition-timing-function: ease;
+    transition-duration: 0.3s;
+}
+
+/* CENTER TEXT */
+
+.medio{
+    text-align: center;
+}
+
+/* TURNOS */
+
+.center-table{
+        margin-left: auto;
+        margin-right: auto;
+}
+
+table {
+    margin: 50px;
+    font-family: 'roboto';
+}
+
+table,  th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-color: #E1EFDF;
+    border-width: 3px;
+    text-align: center;
+    padding: 10px 10px;
+    }
+
+th{
+    background-color: blanchedalmond;
+}
+
+.title-lower{
+    font-family: 'playfair display', serif;
+    margin-top: 50px;
+    letter-spacing: 3.1px;
+    font-weight: 100;
+    font-size: 1em;
+}
+
+.button{
+    background: #FFE5EF;
+    color: rgb(43, 43, 43);
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    width: 80px;
+    height: 30px;
+    }
+
+.button:hover {
+    background: #d89fb5;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow: none;
+    
+}
+
+/* NUESTRO LOCAL */
+
+
+
+#hero{
+    margin: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+/* QUIÉNES SOMOS */
+
+
+#contacto{
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto';
+}
+
+#titulo{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    letter-spacing: 22px;
+}
+
+/* RECOMENDACIONES */
+
+#reco{
+    font-family: 'roboto';
+    letter-spacing: 5px;
+}
+
+#reco li{
+    padding: 15px;
+}
+
+iframe{
+    margin-top: 20px;
+}
+
+#youtube{
+    background-color: #FFE5EF;
+    display: block;
+    width: 100%;
+}
+
+.ytvideo{
+    height: 10%;
+    width: 80%;
+}
+
+.main-wrapper{
+
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer"
+    ;
+}
+
+.nuestro-wrapper{
+
+    display: grid;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer"
+    ;
+}
+
+.dot {
+    visibility: hidden;
+}
+
+
+/* 768 PX */
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 768px) {
+    
+    /* NAV */
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;    
+        }
+
+    nav ul li{
+        margin: 5px 10px;
+        font-size: 1em;
+    }    
+
+    .dot {
+        visibility: visible;
+    }
+
+    /* 2DS */
+
+    .ds{
+        visibility: visible;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    .texto_index{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    
+    /* NUESTRO LOCAL */
+
+    #hero{
+        margin: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+        
+
+
+    /* RECOMENDACIONES */
+    
+    .ytvideo{
+        height: 300px;
+        width: 80%;
+    }
+
+
+    /* TURNOS */
+
+    table,  th, td {
+    padding: 10px 24px;
+    }
+
+
+
+}
+
+
+/* 1024 PX */
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 1024px) {
+
+    /* NAV */
+
+    nav ul li{
+        display: inline-block;
+        margin: 5px 22px;
+    }
+
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    /* NAV */
+
+    nav ul li{
+        display: inline-block;
+        margin: 5px 22px;
+        font-size: 2em;
+    }
+
+
+    /* NUESTRO LOCAL */
+
+    #hero{
+        margin: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+
+
+
+    /* RECOMENDACIONES */
+    
+    .ytvideo{
+        height: 600px;
+        width: 65%;
+    }
+
+
+    /* TURNOS */
+
+    table,  th, td {
+        padding: 10px 24px;
+        }
+
+
+}
