@@ -8,6 +8,12 @@ a{
 
 /* BODY */
 
+.row{
+    display: flex;
+}
+
+
+
 body{
     background-image: url(../Img/bg.png);
     background-position: center top;
@@ -199,6 +205,23 @@ th{
     text-shadow: none;
     
 }
+
+.card-body{
+    background-color: rgb(245, 227, 233)
+}
+
+.btn-primary{
+    background-color: rgb(153, 82, 126)
+
+}
+
+.btn-primary:hover {
+    background-color: rgb(119, 29, 84)
+}
+
+
+
+
 
 /* NUESTRO LOCAL */
 
