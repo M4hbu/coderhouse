@@ -1,0 +1,24 @@
+/* TURNOS */
+
+.center-table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+margin: 50px;
+font-family: 'roboto';
+}
+
+table,  th, td {
+border: 1px solid black;
+border-collapse: collapse;
+border-color: #E1EFDF;
+border-width: 3px;
+text-align: center;
+padding: 10px 10px;
+}
+
+th{
+background-color: blanchedalmond;
+}
