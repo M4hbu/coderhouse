@@ -24,8 +24,8 @@ nav{
             font-family: 'roboto', serif;
             align-items: center;
             align-content: center;
-            color: rgb(43, 43, 43);
-            font-size: 1.3em;
+            color: rgb(10, 10, 10);
+            font-size: .5em;
             list-style: none;
         }
     }
@@ -37,7 +37,7 @@ hr{
 }
 
 .nav-button{
-    transition: transform .2s;
+    transition: transform .35s;
 }
 
 .nav-button:hover{

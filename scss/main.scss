@@ -24,22 +24,14 @@ height: 0%;
 width: 0%;
 }
 
-/* MÁRGENES INFERIORES - FOOTERS */
+/* MÁRGENES INFERIORES - BOTONES - CARDS */
 
 .margin-bot{
     margin-bottom: 30px;
 }
 
-.title-lower{
-    font-family: 'playfair display', serif;
-    margin-top: 50px;
-    letter-spacing: 3.1px;
-    font-weight: 100;
-    font-size: 1em;
-}
-
 .button{
-    background: #FFE5EF;
+    background: $rosa;
     color: rgb(43, 43, 43);
     border: 1px solid #eee;
     border-radius: 20px;
@@ -48,6 +40,9 @@ width: 0%;
     width: 80px;
     height: 30px;
     }
+
+
+
 
 .button:hover {
     background: #d89fb5;
@@ -72,27 +67,6 @@ width: 0%;
     background-color: rgb(119, 29, 84)
 }
 
-.main-wrapper{
-
-    display: grid;
-    grid-template-areas:
-    "header"
-    "nav"
-    "main"
-    "footer"
-    ;
-}
-
-.nuestro-wrapper{
-
-    display: grid;
-    grid-template-areas:
-    "header"
-    "nav"
-    "main"
-    "footer"
-    ;
-}
 
 .dot {
     visibility: hidden;
@@ -102,6 +76,11 @@ width: 0%;
 
 a{
     text-decoration: none;
+    color: rgb(124, 124, 124);
+}
+
+a:hover{
+    color: rgb(153, 82, 126)
 }
 
 /* BODY */
@@ -118,6 +97,20 @@ body{
     background-color: #FFFDF2;
 }
 
+    /* LISTÓN ROSA */
+
+
+@mixin fondo-rosa (){
+        background-color: $rosa;
+        display: block;
+        width: 100%;
+        padding: 15px;
+    }
+
+    h3 {
+        @include fondo-rosa;
+    }
+        
 
 /* 768 PX */
 /* MEDIA QUERIES */
@@ -212,7 +205,7 @@ body{
     nav ul li{
         display: inline-block;
         margin: 5px 22px;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
 
@@ -253,3 +246,5 @@ ul{
 li{
     list-style: none;
 }
+
+

@@ -11,20 +11,42 @@ footer{
 }
 
 #fb:hover{
-    transform: scale(1.3);   
+    transform: scale(1.2);   
     transition-timing-function: ease;
     transition-duration: $scale-hover;
 }
 
 #tw:hover{
-    transform: scale(1.3);   
+    transform: scale(1.2);   
     transition-timing-function: ease;
     transition-duration: $scale-hover;
 }
 
 #steam:hover{
-    transform: scale(1.3);   
+    transform: scale(1.2);   
     transition-timing-function: ease;
     transition-duration: $scale-hover;
 }
 
+.red-icon{
+    padding: 1%;
+    border:1px;
+    border-radius: 50%;
+}
+
+$redes: (
+    facebook: #bdd8f3,
+    twitter: #E1EFDF,
+    steam: #ffe5ef,
+);
+
+@each $red, $background in $redes{
+    .red-#{$red}{
+        background: $background;
+    }
+}
+
+#legal{
+    font-size: 0.8em;
+    opacity: 50%;
+}

@@ -1,3 +1,6 @@
+@import "variables";
+
+
 /* RECOMENDACIONES */
 
 .ytvideo{
@@ -18,8 +21,30 @@ iframe{
     margin-top: 20px;
 }
 
-#youtube{
-    background-color: #FFE5EF;
-    display: block;
-    width: 100%;
+/* BOTONES */
+
+.box{
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 1.5% 20%;
+    opacity: 50%;
+}
+
+.box-verde{
+    @extend .box;
+    background-color: $verde;
+}
+
+.box-rosa{
+    @extend .box;
+    background-color: $rosa;
+}
+
+.box-celeste{
+    @extend .box;
+    background-color: $celeste;
+}
+
+.box:hover {
+    opacity: 100%;
 }

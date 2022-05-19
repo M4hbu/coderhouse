@@ -1,3 +1,6 @@
+@import "variables";
+
+
 /* TURNOS */
 
 .center-table{
@@ -13,7 +16,7 @@ font-family: 'roboto';
 table,  th, td {
 border: 1px solid black;
 border-collapse: collapse;
-border-color: #E1EFDF;
+border-color: $verde;
 border-width: 3px;
 text-align: center;
 padding: 10px 10px;
