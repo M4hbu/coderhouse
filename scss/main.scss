@@ -16,13 +16,24 @@
     width: 50%;
 }
 
+  /* CAROUSEL */
+.contenedor-carousel {
+    height: 0%;
+    width: 0%;
+    visibility: hidden; }
+
+
+
+
 /* 2DS */
 
 .ds{
-visibility: visible;
+visibility: hidden;
 height: 0%;
 width: 0%;
+margin-bottom: 10px;
 }
+
 
 /* MÁRGENES INFERIORES - BOTONES - CARDS */
 
@@ -40,9 +51,6 @@ width: 0%;
     width: 80px;
     height: 30px;
     }
-
-
-
 
 .button:hover {
     background: #d89fb5;
@@ -134,6 +142,7 @@ body{
         visibility: visible;
     }
 
+
     /* 2DS */
 
     .ds{
@@ -172,12 +181,23 @@ body{
     }
 
 
+    .col-6{
+        width: 80%;
+        margin: 5%;
+    }
+
+    .titulo{
+        font-size: 1.5rem;
+    }
+
+
     /* TURNOS */
 
     table,  th, td {
     padding: 10px 24px;
     }
 
+    
 
 
 }
@@ -193,10 +213,20 @@ body{
     nav ul li{
         display: inline-block;
         margin: 5px 22px;
+        font-size: 1rem;
+    }
+    /* CAROUSEL */
+
+    .contenedor-carousel{
+        height: 100%;
+        width: 100%;
+        visibility: visible;
+        padding-top: 10px;
     }
 
-
 }
+
+
 
 @media screen and (min-width: 1400px) {
 

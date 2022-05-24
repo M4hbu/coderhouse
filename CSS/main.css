@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /* RECOMENDACIONES */
 .ytvideo {
-  height: 600px;
-  width: 65%; }
+  height: 50%;
+  width: 100%; }
 
 #reco {
   font-family: 'roboto';
@@ -13,6 +13,14 @@
 
 iframe {
   margin-top: 20px; }
+
+.col-6 {
+  width: 80%;
+  margin: 5%; }
+
+.foto-reco {
+  max-width: 80%; }
+
 
 /* BOTONES */
 .box, .box-verde, .box-rosa, .box-celeste {
@@ -54,7 +62,7 @@ nav ul {
     align-items: center;
     align-content: center;
     color: #0a0a0a;
-    font-size: .5em;
+    font-size: 1em;
     list-style: none; }
 
 hr {
@@ -161,8 +169,8 @@ main div {
 /* SUBTÍTULOS */
 .titulo {
   font-family: 'Playfair Display', serif;
-  font-size: 1.5em;
-  letter-spacing: 15px; }
+  font-size: .7em;
+  letter-spacing: 10px; }
 
 /* CONTACTO */
 #contacto {
@@ -177,11 +185,18 @@ main div {
   margin-right: auto;
   width: 50%; }
 
+/* CAROUSEL */
+.contenedor-carousel {
+  height: 0%;
+  width: 0%;
+  visibility: hidden; }
+
 /* 2DS */
 .ds {
-  visibility: visible;
+  visibility: hidden;
   height: 0%;
-  width: 0%; }
+  width: 0%;
+  margin-bottom: 10px; }
 
 /* MÁRGENES INFERIORES - BOTONES - CARDS */
 .margin-bot {
@@ -279,6 +294,11 @@ h3 {
   .ytvideo {
     height: 300px;
     width: 80%; }
+  .col-6 {
+    width: 80%;
+    margin: 5%; }
+  .titulo {
+    font-size: 1.5rem; }
   /* TURNOS */
   table, th, td {
     padding: 10px 24px; } }
@@ -289,7 +309,14 @@ h3 {
   /* NAV */
   nav ul li {
     display: inline-block;
-    margin: 5px 22px; } }
+    margin: 5px 22px;
+    font-size: 1rem; }
+  /* CAROUSEL */
+  .contenedor-carousel {
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    padding-top: 10px; } }
 
 @media screen and (min-width: 1400px) {
   /* NAV */

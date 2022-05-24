@@ -4,8 +4,8 @@
 /* RECOMENDACIONES */
 
 .ytvideo{
-    height: 600px;
-    width: 65%;
+    height: 50%;
+    width: 100%;
 }
 
 #reco{
@@ -20,6 +20,27 @@
 iframe{
     margin-top: 20px;
 }
+
+
+.col-6{
+    width: 80%;
+    margin: 5%;
+}
+
+
+.foto-reco{
+    max-width: 80%;
+}
+
+/* SUBTÍTULOS */
+.titulo {
+    font-family: 'Playfair Display', serif;
+    font-size: .7em;
+    letter-spacing: 15px; }
+
+
+
+
 
 /* BOTONES */
 
