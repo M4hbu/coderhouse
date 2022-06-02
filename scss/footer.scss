@@ -5,7 +5,7 @@ footer{
 
 
     li{
-        display: inline-block;
+        flex-direction: column;
         margin: 2px 12px;
     }
 }
@@ -29,9 +29,10 @@ footer{
 }
 
 .red-icon{
-    padding: 1%;
+    padding: 2%;
     border:1px;
     border-radius: 50%;
+    display: inline-block;
 }
 
 $redes: (

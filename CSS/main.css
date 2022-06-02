@@ -21,6 +21,11 @@ iframe {
 .foto-reco {
   max-width: 80%; }
 
+/* SUBTÍTULOS */
+.titulo {
+  font-family: 'Playfair Display', serif;
+  font-size: .7em;
+  letter-spacing: 15px; }
 
 /* BOTONES */
 .box, .box-verde, .box-rosa, .box-celeste {
@@ -78,7 +83,7 @@ hr {
 footer {
   font-family: 'roboto', serif; }
   footer li {
-    display: inline-block;
+    flex-direction: column;
     margin: 2px 12px; }
 
 #fb:hover {
@@ -97,9 +102,10 @@ footer {
   transition-duration: 0.4s; }
 
 .red-icon {
-  padding: 1%;
+  padding: 2%;
   border: 1px;
-  border-radius: 50%; }
+  border-radius: 50%;
+  display: inline-block; }
 
 .red-facebook {
   background: #bdd8f3; }
@@ -143,6 +149,12 @@ th {
   background-color: blanchedalmond; }
 
 /* TEXTO */
+h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  letter-spacing: 4px;
+  padding: 2%; }
+
 main div {
   align-items: center; }
 
@@ -169,8 +181,8 @@ main div {
 /* SUBTÍTULOS */
 .titulo {
   font-family: 'Playfair Display', serif;
-  font-size: .7em;
-  letter-spacing: 10px; }
+  font-size: 1.5em;
+  letter-spacing: 15px; }
 
 /* CONTACTO */
 #contacto {
@@ -224,10 +236,12 @@ main div {
   background-color: #f5e3e9; }
 
 .btn-primary {
-  background-color: #99527e; }
+  background-color: #99527e;
+  border-width: 0px; }
 
 .btn-primary:hover {
-  background-color: #771d54; }
+  background-color: #771d54;
+  border-width: 0px; }
 
 .dot {
   visibility: hidden; }
@@ -252,7 +266,7 @@ body {
   background-color: #FFFDF2; }
 
 /* LISTÓN ROSA */
-h3 {
+h2 {
   background-color: #ffe5ef;
   display: block;
   width: 100%;
@@ -261,6 +275,16 @@ h3 {
 /* 768 PX */
 /* MEDIA QUERIES */
 @media screen and (min-width: 768px) {
+  /* FOOTER */
+  footer li {
+    display: inline-block;
+    margin: 2px 12px; }
+  .red-icon {
+    padding: 1%;
+    border: 1px;
+    border-radius: 50%;
+    width: auto;
+    height: auto; }
   /* NAV */
   nav ul {
     display: flex;

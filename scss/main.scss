@@ -67,12 +67,14 @@ margin-bottom: 10px;
 }
 
 .btn-primary{
-    background-color: rgb(153, 82, 126)
+    background-color: rgb(153, 82, 126);
+    border-width: 0px;
 
 }
 
 .btn-primary:hover {
-    background-color: rgb(119, 29, 84)
+    background-color: rgb(119, 29, 84);
+    border-width: 0px;
 }
 
 
@@ -115,7 +117,7 @@ body{
         padding: 15px;
     }
 
-    h3 {
+    h2 {
         @include fondo-rosa;
     }
         
@@ -124,7 +126,24 @@ body{
 /* MEDIA QUERIES */
 
 @media screen and (min-width: 768px) {
-    
+
+    /* FOOTER */
+
+    footer{
+        li{
+            display: inline-block;
+            margin: 2px 12px;
+        }
+}
+
+.red-icon{
+    padding: 1%;
+    border:1px;
+    border-radius: 50%;
+    width: auto;
+    height: auto;
+}
+
     /* NAV */
 
     nav ul{
